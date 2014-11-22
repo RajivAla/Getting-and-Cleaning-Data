@@ -13,14 +13,38 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
-Check the README.txt file for further details about this dataset.
+
+Variable Descriptions: 
+
+#1 Read Test and Train data from files.
+x_train
+y_train
+subject_train
+x_test
+y_test
+subject_test
 
 
-Attribute Information:
+# Merging test and train data per dimensions. 
+final_data
 
-For each record in the dataset it is provided: 
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
+# Read features Data
+features
+
+#Merge x_train, y_train, subject_train to create full training set
+final_data
+
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+final_data_filtered 
+
+3. Use descriptive activity names to name the activities in the data set 
+activities
+
+4. Appropriately label the data set with descriptive activity names.
+final_data_filtered
+
+5. Create a second, independent tidy data set with the average of each variable for each activity and each subject
+tidy_data
+
+##Save the results
+tidy_data
