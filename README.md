@@ -8,17 +8,20 @@ Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fproje
 
 You should see the following data files. 
 
- README.txt
-  activity_labels.txt
-  features.txt
-  features_info.txt
-  test(folder)
-    subject_test.txt
-    X_Test.txt
-    Y_Test.txt
-  train (folder)
-    X_Train.txt
-    Y_Train.txt
+ README.txt,
+ 
+  activity_labels.txt , 
+  features.txt ,
+  features_info.txt ,
+  
+  test(folder) ->
+    subject_test.txt ,
+    X_Test.txt ,
+    Y_Test.txt 
+    
+  train (folder)->
+    X_Train.txt ,
+    Y_Train.txt ,
     subject_train.txt
 
 Dependencies
