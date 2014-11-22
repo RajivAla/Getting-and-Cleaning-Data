@@ -16,35 +16,27 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Variable Descriptions: 
 
-#1 Read Test and Train data from files.
-x_train
-y_train
-subject_train
-x_test
-y_test
+Read Test and Train data from files   -->
+x_train ,
+y_train ,
+subject_train ,
+x_test ,
+y_test ,
 subject_test
 
 
-# Merging test and train data per dimensions. 
-final_data
+Merging test and train data per dimensions  --> "final_data"
 
-# Read features Data
-features
+Read features Data   -->  "features"
 
-#Merge x_train, y_train, subject_train to create full training set
-final_data
+Merge x_train, y_train, subject_train to create full training set  -->  "final_data"
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
-final_data_filtered 
+Extracts only the measurements on the mean and standard deviation for each measurement  --> "final_data_filtered"
 
-3. Use descriptive activity names to name the activities in the data set 
-activities
+Use descriptive activity names to name the activities in the data set  --> "activities"
 
-4. Appropriately label the data set with descriptive activity names.
-final_data_filtered
+Appropriately label the data set with descriptive activity names  --> "final_data_filtered"
 
-5. Create a second, independent tidy data set with the average of each variable for each activity and each subject
-tidy_data
+Create a second, independent tidy data set with the average of each variable for each activity and each subject  --> "tidy_data"
 
-##Save the results
-tidy_data
+Save the results  --> "tidy_data"
